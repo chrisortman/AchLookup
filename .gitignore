@@ -1,0 +1,8 @@
+[Bb]in
+[Oo]bj
+
+TestResults
+packages
+db.sdf
+*.suo
+*.user
