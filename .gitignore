@@ -6,3 +6,8 @@ packages
 db.sdf
 *.suo
 *.user
+Debug
+_ReSharper*
+CPlusPlus/*/ipch/*
+*.sdf
+*.opensdf
