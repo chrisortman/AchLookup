@@ -1,11 +1,15 @@
 // AchLookup.CPlusPlus.cpp : Defines the entry point for the console application.
 //
 
+//to manipulate the file
 #include "stdafx.h"
 #include <fstream>
 #include <iostream>
 #include <string>
 #include <iomanip>
+
+//other fucntion declarations
+int create_database();
 
 //does this leak memory?
 //not quite sure i understand how it doesn't change the string
@@ -66,7 +70,8 @@ void process_file()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	process_file();
+	//process_file();
+	create_database();
 	return 0;
 }
 
