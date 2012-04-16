@@ -7,6 +7,7 @@
 #include <iostream>
 #include <string>
 #include <iomanip>
+#include <stdio.h>
 
 //other fucntion declarations
 int create_database();
@@ -70,6 +71,8 @@ void process_file()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	std::remove("C:\\code\\achlookup\\db.sdf");
+
 	//process_file();
 	create_database();
 	return 0;
